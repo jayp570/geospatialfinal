@@ -1,0 +1,23 @@
+# Generated test results (recreate with make_synthetic_data.py + train_models.py)
+synthetic_demo/
+
+# Real data and large generated files: keep these out of GitHub
+*.csv
+*.geojson
+*.gpkg
+*.shp
+*.parquet
+*.zip
+
+# Python and OS clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Credentials: never commit keys or tokens
+.env
+*token*
+*secret*
+*.key
